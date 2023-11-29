@@ -1,0 +1,174 @@
+ @media screen and (min-width: 995px) { 
+/* Telas Grandes */
+header{ 
+    height: 150px;
+    position: relative;       
+    margin-bottom: 20px;
+    padding: 10px; 
+   
+    background-image:linear-gradient(to bottom, white 0,5% , transparent);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   
+   #primeira-linha{
+    height: 50px;  
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+   }
+   
+   .logo{
+       position: absolute;
+       top: 1.5%;
+       left: 50%;
+       transform: translate(-50%);
+   
+       color: var(--cor-2);
+       font-family: var(--font-1);
+       font-size: 50pt;
+       font-weight: bolder;
+   
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+   }
+   
+   .logo img{width: 125px;}
+   
+   .logo p{
+       width: 335px; 
+       margin-top: -10px;
+       padding: 7px;
+   
+       color: black;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 10pt;
+   }
+   
+   #log-car{
+       width: 150px;
+       display: flex;
+       justify-content: space-evenly;
+   }
+   
+   #pesquisa{
+    width: 150px;
+   }
+   
+   #login{
+    width: 40px;
+   }
+   #carrinho{
+    width: 40px;
+   }
+   
+   .menu-tela-grande{
+       background-image:linear-gradient(to top, white 0,5%, transparent);
+       padding-bottom: 20px;
+       border-radius: 0px 0px 10px 10px;
+   
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .cx-link{
+        margin: 0px 10px;
+        width: 230px;
+        padding: 5px;
+        display: flex;
+        gap: 15px;
+    }
+   
+    .cx-link a{
+        width: 50%;
+        margin: 0px 1px;
+        border-radius: 30px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+
+    .cx-link a:hover{
+        transform: translate(0px, -10px);
+        box-shadow: 0px 3px 5px white;
+    }
+
+   .nav-icon-img{
+    width: 100%;
+   }
+
+   .cx-mn-link{
+        margin: 0px 10px;
+        width: 230px;
+        height: 70px;
+        padding: 5px;
+        overflow: hidden;
+        display: flex;
+        gap: 15px;
+    }
+
+    .meni-link{
+        width: 50%;
+        margin: 0px 1px;
+        border-radius: 30px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+
+    .meni-link:hover{
+        transform: translate(0px, -10px);
+        box-shadow: 0px 3px 5px lightslategray;
+    }
+
+    .nav-icon-mn-img{
+        width: 100%;
+    }
+
+    .menu-tela-pequena{
+        display: none;
+    }
+ }
+   
+   @media screen and (max-width: 992px) {
+    
+    header{ 
+        height: 150px;
+        padding-top: 10px; 
+        background-image:linear-gradient(to bottom, white 0,5% , transparent);
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        position: sticky;
+        top: -1px;
+       }
+       
+       #primeira-linha{
+        width: 60%;
+        height: 50px;  
+        padding: 5px;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       }
+
+    
+    .logo{width:125px;}
+
+    .logo img{width: 100%;}
+   
+    .logo p{display: none;}
+    
+    menu{display: none;}
+
+    
+   }

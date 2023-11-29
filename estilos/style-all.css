@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+*{margin: 0; padding: 0;}
+
+::-webkit-scrollbar{width: 0; height: 0;}
+
+:root{
+ --cor-1:#AAECFC;
+ --cor-2:#88A3E2;
+ --cor-3:#B7A6F6;
+ --cor-4:#C37EDB;
+ --cor-5:#FC8DCA;
+
+ --font-1: 'Ephesis', arial;
+}
+
+body{
+ background-image: linear-gradient(70deg, var(--cor-5),var(--cor-3), var(--cor-1));
+ background-repeat: no-repeat;
+ position: relative;
+}
+
+
+/* principal */
+main{
+    width: 100%;
+}
+.sugestivas{
+    height:310px;
+    background-color: white;
+    padding: 15px;
+
+    margin: 5px 0px;
+    
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap:wrap;
+    
+}
+
+.caixa-sugestivas{
+    width: 200px;
+    height: 305px;
+    padding: 5px;
+  box-shadow: inset 0px 0px 5px gray;
+    border-radius: 20px 0px;
+    
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap:wrap;
+}
+
+.peça-sugestiva{
+    width: 160px;
+    border-radius: 20px 0px;
+    background-color: blueviolet;
+}
+
+.obs-peça{
+    width: 160px;
+    text-align: center;
+}
+
+
+
+.bnt-compra{
+    width: 160px;
+    height: 30px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 20px;
+    
+
+    background-color: rgb(61, 193, 61);
+    color: white;
+    font-size: 9.7pt;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.63);
+}
+
+/* rodapé */
+footer{
+ height: 200px;
+ background-color: black;
+ color: white;
+ border-top:solid 0.5px black;
+ margin-top: 20px;
+ padding: 10px;
+
+ display: flex;
+ justify-content: space-around;
+ align-items: flex-start;
+}
+
+footer div{
+ font-size: 12pt;
+ height: 100%px;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+} 
+
+footer ul li{
+ list-style: none;
+ padding: 5px;
+ cursor: pointer;
+}
